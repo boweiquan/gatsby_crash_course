@@ -37,7 +37,11 @@ function SEO({ description, lang, meta, title }) {
       meta={[
         {
           name: `description`,
-          content: metaDescription,
+          content: 'this is a sample website done by David Quan',
+        },
+        {
+          name: 'keywords',
+          content: 'gatsby, tutorial, react',
         },
         {
           property: `og:title`,
